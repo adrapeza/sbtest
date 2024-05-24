@@ -3,3 +3,4 @@
 /build/*
 /allure-results/*
 /target/*
+*.iml
