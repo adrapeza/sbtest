@@ -17,16 +17,6 @@ public class ResourcesUtils {
             e.printStackTrace();
             throw new RuntimeException("File " + relativePathFile + " doesn't exist! Check path to file");
         }
-        /*ClassLoader classLoader = ResourcesUtils.class.getClassLoader();
-        try {
-            String pathToFile =  Paths.get(classLoader.getResource(relativePathFile).toURI()).toString();
-            return new String(Files.readAllBytes(new File(pathToFile).toPath()));
-        } catch (URISyntaxException | NullPointerException e) {
-            throw new RuntimeException("File " + relativePathFile + " doesn't exist! Check path to file");
-        } catch (IOException e) {
-            e.printStackTrace();
-            throw new RuntimeException("Cannot read the file " + relativePathFile, e);
-        }*/
     }
 
     public static String readFile(String path) {

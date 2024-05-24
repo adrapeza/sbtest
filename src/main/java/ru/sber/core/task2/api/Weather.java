@@ -4,9 +4,9 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import ru.sber.core.contants.Environment;
 
 import static io.restassured.RestAssured.given;
-import static ru.sber.core.contants.Constants.API_KEY;
 import static ru.sber.core.contants.WeatherMethods.CURRENT;
 import static ru.sber.core.contants.Urls.BASE_WEATHER_URL;
 
@@ -17,7 +17,7 @@ public class Weather {
         RestAssured.basePath= CURRENT;
 
         Response response = given().
-                queryParam("key", API_KEY).
+                queryParam("key", Environment.get().getApiKey()).
                 queryParam("q", city).
                 when().
                 get().
