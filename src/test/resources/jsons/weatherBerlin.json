@@ -1,0 +1,41 @@
+{
+  "location": {
+    "name": "Berlin",
+    "region": "Berlin",
+    "country": "Germany",
+    "lat": 52.52,
+    "lon": 13.4,
+    "tz_id": "Europe/Berlin",
+    "localtime_epoch": 1716544274,
+    "localtime": "2024-05-24 11:51"
+  },
+  "current": {
+    "last_updated_epoch": 1716543900,
+    "last_updated": "2024-05-24 11:45",
+    "temp_c": 23.0,
+    "temp_f": 73.4,
+    "is_day": 1,
+    "condition": {
+      "text": "Partly cloudy",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+      "code": 1003
+    },
+    "wind_mph": 10.5,
+    "wind_kph": 16.9,
+    "wind_degree": 80,
+    "wind_dir": "E",
+    "pressure_mb": 1019.0,
+    "pressure_in": 30.09,
+    "precip_mm": 0.13,
+    "precip_in": 0.01,
+    "humidity": 50,
+    "cloud": 25,
+    "feelslike_c": 24.7,
+    "feelslike_f": 76.4,
+    "vis_km": 10.0,
+    "vis_miles": 6.0,
+    "uv": 5.0,
+    "gust_mph": 11.3,
+    "gust_kph": 18.2
+  }
+}

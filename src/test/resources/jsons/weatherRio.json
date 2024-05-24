@@ -1,0 +1,41 @@
+{
+  "location": {
+    "name": "Rio De Janeiro",
+    "region": "Rio de Janeiro",
+    "country": "Brazil",
+    "lat": -22.9,
+    "lon": -43.23,
+    "tz_id": "America/Sao_Paulo",
+    "localtime_epoch": 1716544237,
+    "localtime": "2024-05-24 6:50"
+  },
+  "current": {
+    "last_updated_epoch": 1716543900,
+    "last_updated": "2024-05-24 06:45",
+    "temp_c": 21.0,
+    "temp_f": 69.8,
+    "is_day": 1,
+    "condition": {
+      "text": "Sunny",
+      "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+      "code": 1000
+    },
+    "wind_mph": 2.5,
+    "wind_kph": 4.0,
+    "wind_degree": 70,
+    "wind_dir": "ENE",
+    "pressure_mb": 1012.0,
+    "pressure_in": 29.88,
+    "precip_mm": 0.0,
+    "precip_in": 0.0,
+    "humidity": 94,
+    "cloud": 0,
+    "feelslike_c": 21.0,
+    "feelslike_f": 69.8,
+    "vis_km": 10.0,
+    "vis_miles": 6.0,
+    "uv": 1.0,
+    "gust_mph": 10.3,
+    "gust_kph": 16.5
+  }
+}
